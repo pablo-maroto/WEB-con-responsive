@@ -1,0 +1,773 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'Otomanopee One', sans-serif;
+	background-image: url(imagenes/FONDO.jpg);
+	margin-top: 0%;
+}
+
+header, section, footer{
+	width: 960px;
+	margin-left:auto;
+	margin-right:auto;
+}
+header{
+	height: 50px;
+	background-color:#000000;
+	position: sticky;
+	top: 0px;
+	z-index: 1000;
+}
+
+#marca{
+	width: 100px;
+	height: 50px;
+	float: left;
+}
+.img_ajuste{
+	width: 100%;
+	padding: 1px;
+	
+}
+.img_ajustes{
+	width: 100%;
+	height: 550px;
+}
+#btn_principal{
+	width: 424px;
+	height: 50px;
+	float: left;
+}
+#btn_principal ul{
+	padding: 4px;
+	list-style-type: none;
+	word-spacing:80px;
+	margin-left: 10px;
+	margin-right: 20px;
+	margin-top: 8px;
+	border-style: ridge;
+}
+#btn_principal ul li{
+	display: inline;	
+}
+#btn_principal ul li a {
+	display: inline-block;
+	text-decoration: none;
+	color:#ffffff;
+
+	
+}
+#btn_principal ul li a:hover{
+	background-color: #ff7b00;
+	color:#000000;
+}
+
+#btn_secundaria{
+	width: 960px;
+	height: 50px;
+	background-color: #aaaaaa;
+	float: left;
+}
+#btn_secundaria ul{
+	padding: 4px;
+	list-style-type: none;
+	word-spacing:75px;
+	margin-left: 10px;
+	margin-right: 555px;
+	margin-top: 8px;
+	border-style: ridge;
+}
+#btn_secundaria ul li{
+	display: inline;	
+}
+#btn_secundaria ul li a {
+	display: inline-block;
+	text-decoration: none;
+	color:#ffffff;
+
+	
+}
+#btn_secundaria ul li a:hover{
+	background-color: #acacac;
+	color:#000000;
+}
+#btn_menuResponsive {
+	width: 40px;
+	height: 40px;
+	float: left;
+	display: none;
+
+}
+#btn_menuResponsive a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 35px;
+}
+
+#Home{
+	height:580px;
+	background-color:#000000;
+	color: white;
+	font-size: x-large;
+}
+h1{
+	margin: 0px;
+	text-align: center;
+}
+#TituloHome1{
+	padding: 2px 0;
+}
+#Home1{
+	width:470px;
+	height:440px;
+	margin-top:5px;
+	margin-left:5px;
+	float:left;
+	background-image: url(imagenes/2021.jpg);
+	background-size: cover;
+}
+#Home2,#Home3 {
+	padding: 20px;
+	box-sizing: border-box;
+	color: white;
+	font-size: small;
+}
+
+#Home2,#Home3{
+	width:470px;
+	height:215px;
+	background-color:#444444;
+	margin:5px;
+	float:right;
+	margin-top:5px;
+}
+#btn_perfil{
+	width: 30px;
+	height: 30px;
+	padding: 5px;
+}
+#Important{
+	height:330px;
+	background-color:#acacac;
+}
+#Important1{
+	padding: 10px;
+	box-sizing: border-box;
+	color: #7d929e;
+	font-size: small;
+	margin-left: 2px;
+}
+#TituloImportant{
+	padding: 2px 0;
+}
+h2{
+	margin: 0px;
+	text-align: center;
+	color: white;
+}
+#Important1,#Important2{
+	width:470px;
+	height:240px;
+	background-color:#000000;
+	margin:5px;
+	float:left;
+	margin-top:5px;
+	color: #ffffff;
+	font-size: large;
+	padding: 20px;
+}
+h6{
+	text-align: center;
+	font-size: large;
+	margin-top: 2px;
+}
+h5 {
+	text-align: left;
+	font-size: x-large;
+	color: tomato;
+	margin-left: 20px;
+}
+#Important2{
+	padding: 20px;
+	box-sizing: border-box;
+	color: white;
+	font-size: large;
+	padding-bottom: 5px;
+}
+#News{
+	height:1200px;
+	background-color:#686104;
+}
+
+h3{
+	margin: 0px;
+	text-align: center;
+	color: white;
+	font-size: xx-large;
+}
+#N1,#N2{
+	width:470px;
+	height:290px;
+	background-color:#000000;
+	margin:5px;
+	float:left;
+	margin-top:5px;
+}
+
+#N1{
+	
+	margin-top: 28px ;
+	background-image: url(imagenes/ima1.jpg);
+
+}
+#N2{
+	background-image: url(imagenes/ima2.jpg);
+}
+#N3{
+	background-image: url(imagenes/ima3.jpg);
+}
+#N4{
+	background-image: url(imagenes/ima4.jpg);
+}
+#N3,#N4{
+	width:470px;
+	height:290px;
+	background-color:#000000;
+	margin:5px;
+	float:left;
+	margin-top:5px;
+}
+
+#mod_news {
+	height: 480px;
+	width: 960px !important;
+	margin-left: 0px;
+	font-size: larger;
+}
+.txt-white:hover{
+	color: azure;
+	background-color: chocolate;
+}
+.txt-white{
+	background-color: rgb(87, 87, 87);
+	
+}
+.text-white{
+	color: #ffffff;
+	
+}
+#new1{
+	background-color: #000000;
+}
+.color-naranja{
+	background-color: #ff6600;
+}
+#new3{
+	background-color: #000000;
+}
+#TituloRetro{
+	padding: 2px 0;
+}
+h4{
+	margin: 0;
+	text-align: center;
+	color: white;
+	font-size: xx-large;
+}
+#Retro_games{
+	height:380px;
+	background-color:#c0a456;
+}
+#R1,#R2{
+	width:470px;
+	height:280px;
+	background-color: #505050;
+	margin:5px;
+	float: left;
+	margin-top:15px;
+}
+#R1_img, #R2_img{
+	width: 440px;
+	height: 200px;
+	padding: 8px;
+	padding-top: 1px;
+}
+#R2_img{
+	margin-left: 10px;
+}
+#R1_txt, #R2_txt{
+	width: 440px;
+	height: 60px;
+	margin-left: 18px;
+	background-color: #ff7b00;
+	padding: 1px;
+}
+h6{
+	margin: 0px;
+	text-align: center;
+	color: white;
+	padding-top: 8px;
+	font-size: 30px;
+}
+
+#Top_Ten{
+	height:650px;
+	background-color:#444444;
+}
+
+#TituloTopTen{
+	padding: 2px 0;
+	color: white;
+}
+
+
+footer{
+	height: 130px;
+	background-color:#acacac;
+}
+#contact-page{
+	background-color: black;
+
+}
+
+.page-link{
+	background-color: #ff6600;
+	color: black;
+}
+.page-link:hover{
+	background-color: #000000;
+	color: #ff6600;
+}
+#Contact{
+	height:120px;
+	width:950px;
+	background-color: #000000;
+	margin:5px;
+	float:left;
+}
+#Contact{
+	color: #ffffff;
+	font-size: x-large;
+	text-align: center;
+	padding-top: 5px;
+}
+
+.txt-green:hover{
+	color: azure;
+	background-color: rgb(16, 223, 26);
+}
+.txt-green{
+	background-color: white;
+	padding: 1px;
+	margin-top: 6px;
+	margin-left: 6px;
+	border-color: #ff6600;
+	
+}
+.btn-primary{
+	padding: 1px;
+	margin-top: 6px;
+	margin-left: 6px;
+	border-color: #ff6600;
+}
+@media all and (min-width: 600px) and (max-width: 1023px) {
+
+header, section, footer{
+	width: 100%;
+}
+header{
+	height: auto;
+}
+body{
+	background-image: none;
+	margin-left: 0%;
+	margin-right: 0%;
+	
+}
+#invitacion{
+	font-size: xx-large;
+}
+#marca{
+	width: 280px;
+	height: 155px;
+	position: absolute;
+	margin-left: 350px;
+	margin-top: 0px;
+}
+
+#btn_principal{
+	width: 100%;
+	height: 160px;
+	float: left;
+	background-color: #000000;
+}
+#btn_principal ul{
+	padding: 10px;
+	word-spacing:0px;
+	font-size: xx-large;
+	border-style: none;
+	letter-spacing: 5px;
+	margin-left: 0%;
+	margin-right: 0%;
+
+}
+#btn_principal ul li{
+	display: block;
+	
+}
+
+#btn_principal ul li a{
+	width: 100%;
+}
+#btn_secundaria{
+	width: 100%;
+	height: 110px;
+	float: left;
+}
+#btn_secundaria ul{
+	padding: 10px;
+	word-spacing:0px;
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-top: 0px;
+	font-size: xx-large;
+	border-style: none;
+	letter-spacing: 5px;
+}
+#btn_secundaria ul li{
+	display: block;
+}
+#btn_secundaria ul li a{
+	width: 100%;
+
+}
+#Home{
+	width: 100%;
+	height:1250px;
+	font-size: x-large;
+}
+#Home1{
+	width: 100%;
+	background-image: url(imagenes/para_celu2.jpg);
+	background-size: cover;
+	float: none;
+	margin-left: 0%;
+}
+#Home2,#Home3 {
+	
+	box-sizing: border-box;
+	color: white;
+	font-size: x-large;
+	text-align: center;
+}
+
+#Home2,#Home3{
+	width:100%;
+	height: auto;
+	margin-top: 5px;
+	margin-right: 0%;
+	
+}
+
+#Important{
+	width: 100%;
+	height:800px;
+	
+}
+h2{
+	margin: 0px;
+	font-size: xx-large;
+	color: white;
+}
+
+#Important1,#Important2{
+	width:100%;
+	height: 300px;
+	margin-left: 0px;
+	font-size: x-large;
+	
+}
+#Important1 a{
+	padding: 4px;
+
+}
+h6{
+	text-align: center;
+	font-size: larger;
+}
+h5 {
+	text-align: center;
+}
+
+#News{
+	width: 100%;
+	height:1000px;
+}
+#mod_news {
+	width: auto !important;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#N1,#N2{
+	width:100%;
+	height:340px;
+	margin-left: 0px;
+	float:left;
+	margin-bottom: 0px;
+}
+#N2{
+	background-image: url(imagenes/n22.png);
+
+}
+#N3,#N4{
+	width:0px;
+	height:0px;
+}
+#Retro_games{
+	height: 850px;
+	background-color:#c0a456;
+}
+#R1,#R2{
+	min-width: 300px;
+	max-width: 500px;
+	height: auto;	
+	padding: 8px;
+	float: none;
+}
+#R1_img, #R2_img{
+	max-width:520px;
+	padding: 0px;
+	margin-left: 10px
+}
+#R2_img{
+	margin-left: 20px;
+}
+#R1_txt, #R2_txt{
+	max-width:520px;
+	height: auto;
+	margin-left: 20px;
+	background-size: none;
+
+}
+
+#Top_Ten{
+	width: 100%;
+	height:auto;	
+}
+
+
+footer{
+	height: auto;
+	width:100%;
+}
+#Contact{
+	width:100%;	
+	margin-left: 0px;
+	
+}
+}
+@media (max-width: 599px) {
+header, section, footer{
+	width: 100%;	
+}
+header{
+	height: auto;
+}
+body{
+	background-image: none;
+	margin-left: 0%;
+	margin-right: 0%;		
+}
+#marca{
+	width:80px;
+	height:80px;
+	position: absolute;
+	margin-top: 0px;
+	margin-left: 200px;
+	float: none;
+	padding: auto;
+}
+#btn_menuResponsive {
+	display: block;
+	float: none;
+	
+}
+#btn_principal{
+	width: 100%;
+	height: 155px;
+	float: left;
+	background-color: #000000;
+	display: none;
+}
+#btn_principal ul{
+	padding: 10px;
+	word-spacing:0px;
+	font-size: xx-large;
+	border-style: none;
+	letter-spacing: 5px;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+#btn_principal ul li{
+	display: block;
+		
+}
+#btn_principal ul li a{
+	width: 100%;
+}
+#btn_secundaria{
+	width: 100%;
+	height: 100px;
+	float: left;
+	display: none;
+}
+#btn_secundaria ul{
+	padding: 10px;
+	word-spacing:0px;
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-top: 0px;
+	font-size: xx-large;
+	border-style: none;
+	letter-spacing: 5px;
+}
+#btn_secundaria ul li{
+	display: block;
+}
+#btn_secundaria ul li a{
+	width: 100%;
+
+}
+#Home{
+width: 100%;
+	height:auto;
+	font-size: x-large;
+}
+#Home1{
+	width: 100%;
+	background-image: url(imagenes/para_celu.jpg);
+	margin-left: 0%;
+	margin-top: 0%;
+	
+}
+#Home2,#Home3 {
+	box-sizing: border-box;
+	color: white;
+	font-size: x-large;
+	text-align: center;
+	margin-right: 0%;
+}
+
+#Home2,#Home3{
+	width:100%;
+	height: auto;
+	margin-top: 0px;
+	margin-left: 0px;
+	
+}
+#Important{
+	width: 100%;
+	height:600px;
+	float: left;
+	margin-top: 0%;
+	
+}
+h2{
+	margin: 0px;
+	font-size: xx-large;
+	color: white;
+}
+#Important1,#Important2{
+	width:100%;
+	height: 250px;
+	margin-left: 0px;
+	
+}
+#Important1 a{
+	padding: 4px;
+}
+h6{
+	font-size: medium;
+}
+#News{
+	width: 100%;
+	height: 1200px;
+	float: left;
+	padding: auto;
+}
+#mod_news {
+	width: auto !important;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+#new2{
+	display: contents;
+}
+#N1,#N2{
+	width:100%;
+	height:auto;
+	margin-left: 0px;
+	float:auto;
+	margin-bottom: 0px;
+}
+#N3,#N4{
+	width:0px;
+	height:0px;
+}
+#Retro_games{
+	width: 100%;
+	height:300px;
+	float: left;
+}
+#Retro_games{
+	height:auto;
+}
+#R1,#R2{
+	width:100%;
+	height:auto;
+	
+	margin:0px;
+	float: none;
+	margin-top:0px;
+}
+#R1_img, #R2_img{
+	width: 100%;
+	height: auto;
+	padding: 0px;
+	padding-top: 0px;
+}
+#R2_img{
+	margin-left: 0px;
+}
+#R1_txt, #R2_txt{
+	width: 100%;
+	height:auto;
+	margin-left: 0px;
+	padding: 0px;
+}
+h6{
+	margin: 0px;
+	text-align: center;
+	color: white;
+	padding-top: 8px;
+	font-size: 30px;
+}
+#Top_Ten{
+	width: 100%;
+	height:550px;	
+	float: left;
+}
+
+
+footer{
+	height: auto;
+	width:100%;
+}
+#Contact{
+	width:100%;	
+	margin-left: 0px;
+}
+}
